@@ -15,17 +15,16 @@
 #navbar{
     position: absolute;
     
-
 }
 
 
 #logo{
     margin: 34px 45px;
-    height: 56px;
+    height: 40px;
 }
 
 #logo img{
-    height: 65px;
+    height: 60px;
     border-radius: 100px;
     margin:3px 6px ;
 }
@@ -49,7 +48,7 @@
 #navbar ul li{
     /* color: white; */
     list-style: none;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
 }
 #navbar ul li a{
     color: white;
@@ -68,10 +67,12 @@
  #home{
     display: flex;
     flex-direction: column;
-    padding: 3px 200px;
+    padding: 75px 140px;
     justify-content: center;
     align-items: center;
-    height: 665px;
+    height: 672px;
+    margin-bottom: 0px;
+    padding-bottom: 45px;
     
 }
 html{
@@ -85,11 +86,12 @@ html{
     position: absolute;
     top: 0;
     left: 0;
-    height: 60%;
+    height: 85%;
     width: 100%;
     z-index: -1;
     opacity: 1.9;
     right: 0;
+    bottom: 0px;
 }
  #home h1{
     color: white;
@@ -103,11 +105,15 @@ html{
 }
 
 .h-primary{
-    font-size: 3.8em;
-    padding: 15px;
+    font-size: 2.8em;
+    padding: 32px;
+}
+.h-primary1{
+    font-size: 2.8em;
+    padding: 32px;
 }
 .h-secoundary{
-    font-size: 2.3em;
+    font-size: 2.0em;
     /* padding: 15px; */
 }
 
@@ -135,14 +141,14 @@ html{
 
 #services{
     display: flex;
-    margin:18px ;
+    margin-bottom:36px ;
 }
 
 #services .box{
     /* border: 2px solid brown; */
     /* width: 100%; */
     padding: 24px;
-    margin: 0px 74px;
+    margin: 0px 25px;
     border-radius: 28px;
     background: #f2f2f2;
     /* margin-bottom: 20px; */
