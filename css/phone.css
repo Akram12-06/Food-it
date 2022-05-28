@@ -10,17 +10,18 @@
 /* HOme section  */
 #home{
     height: 280px;
-    padding: 3px 18px;
+    padding: 40px 13px;
     
 }
 .h-primary {
     font-size: 1.3rem;
+    padding: 17px;
 }
 .h-secoundary{
     font-size: 1.1em;
 }
 #home::before{
-    height: 430px;
+    height: 500px;
 
 }
 #home p{
@@ -45,6 +46,12 @@
 .btn{
     font-size: 13px;
     padding: 4px 8px;
+    margin: 26px;
+}
+
+.h-primary1 {
+    font-size: 1.8em;
+    padding: 32px;
 }
 
 /* client Section */

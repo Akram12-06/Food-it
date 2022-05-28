@@ -70,7 +70,7 @@
     padding: 75px 140px;
     justify-content: center;
     align-items: center;
-    height: 672px;
+    height: 590px;
     margin-bottom: 0px;
     padding-bottom: 45px;
     
@@ -82,11 +82,10 @@ html{
  #home::before{
     content:"";
     background: url('/img/back.jpg') no-repeat center center/cover;
-
     position: absolute;
     top: 0;
     left: 0;
-    height: 85%;
+    height: 87%;
     width: 100%;
     z-index: -1;
     opacity: 1.9;
@@ -100,7 +99,7 @@ html{
  #home p{
     color: white;
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     padding: 2px;
 }
 
